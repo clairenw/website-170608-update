@@ -1,0 +1,18 @@
+AuthName "the Portfolio section" 
+AuthType Basic 
+AuthUserFile /home/8665/clairenw/www.artdirections.co.uk/members/.htpasswd 
+AuthGroupFile /dev/null 
+require valid-user
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+
+AuthType basic
+    AuthUserFile "/home/sites/artdirections.co.uk/public_html/members/.htpasswd"
+    AuthGroupFile /dev/null
+    AuthName "Secure directory"
+    Require valid-user
+    
