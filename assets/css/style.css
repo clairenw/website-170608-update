@@ -248,7 +248,7 @@ my-email::before {
 	text-align:left;
 	margin:0 0 10px 0;
 	display:block;
-	width:160px;
+	width:151px;
 	height:18px;
 	border:1px solid #ccc;
 	border-radius:3px;
@@ -1313,7 +1313,9 @@ ul.image-widget {
 	left: 0;
     background-position: -300px 50%;
 }
-
+.contact-page .icon-map-marker span {
+	font-family: "Source Sans Pro", Sans-Serif
+}
 /*  contact page
 ================================================== */
 .contact-page .icon-map-marker {

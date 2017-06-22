@@ -240,7 +240,7 @@ body.tall-logo nav.user {
 	position: absolute;
 	float: right;
 	/*top: 0;*/
-	bottom: -5px;
+	bottom: -3px;
 }
 
 /* arrow background images */
@@ -297,7 +297,7 @@ body.tall-logo nav.user {
 	/*display: block;*/
 	height: 72px;
 	/*line-height: 72px;*/
-	padding: 0 12px;
+	padding: 0 12px 2px;
 	text-decoration: none;
 	font-size: 120%;
 	transition:all 200ms;
