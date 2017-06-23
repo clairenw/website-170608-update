@@ -178,25 +178,7 @@ with yours and get your fb:admis content information where the XXXX goes.
 					Thatcham<br />
 					Berkshire<br/>
 					<strong>Phone:</strong> <a href="tel:07773246837" class="tele">07773 246837</a><br />
-													<script type="text/javascript">
-									//<![CDATA[
-									<!--
-									var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
-									"harAt(i);}catch(e){}}return o;}f(\")\\\"function f(x,y){var i,o=\\\"\\\\\\\""+
-									"\\\\,l=x.length;for(i=0;i<l;i++){if(i<2)y++;y%=127;o+=String.fromCharCode(x" +
-									".charCodeAt(i)^(y++));}return o;}f(\\\"\\\\gjereld\\\\\\\\177\\\\\\\\\\\"\\" +
-									"\\z|fdt~}<7*v8qh~z B=M@KOPJ\\\\\\\\034OMEFDlL\\\\\\\\\\\\\\\\[TX@VWA_XVJ\\\\"+
-									"\\\\024XS\\\\\\\\023KT\\\\\\\\17727!. %3u\\\\\\\\036/)?$:*p4<\\\\\\\\\\\"\\" +
-									"\\!<$.\\\\\\\\004{z/5)2:]=@ \\\\\\\\010\\\\\\\\014\\\\\\\\005\\\\\\\\014H\\" +
-									"\\\\\\035\\\\\\\\005K\\\\\\\\037\\\\\\\\010\\\\\\\\000\\\\\\\\013P\\\\\\\\0" +
-									"20\\\\\\\\034S\\\\\\\\021\\\\\\\\030\\\\\\\\027\\\\\\\\036\\\\\\\\024%XE/\\" +
-									"\\\\\\030\\\\\\\\020d!cm$`kfae6$m3,&+!)\\\"\\\\,2)\\\"(f};)lo,0(rtsbus.o nr" +
-									"uter};)i(tArahc.x=+o{)--i;0=>i;1-l=i(rof}}{)e(hctac};l=+l;x=+x{yrt{)84=!)31" +
-									"/l(tAedoCrahc.x(elihw;lo=l,htgnel.x=lo,\\\"\\\"=o,i rav{)x(f noitcnuf\")"    ;
-									while(x=eval(x));
-									//-->
-									//]]>
-								</script>
+					<script src="assets/js/send-email.js"></script>
 				<h3 class="short_headline margin-top"><span>Follow</span></h3><br/>
 					<section>
 						<a href="https://twitter.com/ArtDirectionsUK" class="twitter-follow-button" 		data-show-count="false" data-dnt="true">Follow @ArtDirectionsUK</a>
@@ -207,7 +189,7 @@ with yours and get your fb:admis content information where the XXXX goes.
 								<li><a href="https://www.facebook.com/ArtDirectionsUK" target="_blank"><img src="../assets/images/facebook-icon.png" alt="facebook">Find us on facebook</a></li>						
 								<li><a href="http://uk.linkedin.com/in/clairedenning" target="_blank"><img src="../assets/images/linkedin-icon.png" alt="linkedin">View Claire's profile</a></li>	</ul>						
 						</div>
-					</section><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+					</section>
 			</div>
 			<div class="span7">
 				<h3>Please correct the following error:</h3>
@@ -239,7 +221,7 @@ with yours and get your fb:admis content information where the XXXX goes.
 	                    <strong>Phone:</strong> <a class="tele" href="tel:07773246837">07773 246837</a><br>
 	                    <!-- http://hivelogic.com/enkoder/index.php To hide the email address -->
 	                     
-	                    <script src="assets/js/email.js">
+	                    <script src="assets/js/send-email.js">
 	                    </script><br>
 	                    <strong>Fill out an</strong> <a href="contact.html">enquiry form</a>
 	                    <p></p>
@@ -276,9 +258,9 @@ with yours and get your fb:admis content information where the XXXX goes.
 	        <div class="container">
 	            <ul class="clearfix">
 	                <li>&copy; 2014&nbsp;Designed by 
-	                    <script src="assets/js/email.js">
+	                    <script src="assets/js/send-email.js">
 	                    </script> &amp; built by 
-	                    <script src="assets/js/email.js">
+	                    <script src="assets/js/send-email.js">
 	                    </script> . All rights reserved
 	                </li><!-- <li><a href="sitemap.html">Site Map</a></li> -->
 	                <!-- <li><a href="privacy.html">Privacy</a></li> -->
