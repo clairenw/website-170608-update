@@ -125,10 +125,10 @@
     position: relative;
 }
 .sort li a {
-    padding: 0;
-    text-decoration: none;
     color: #000;
     line-height: normal;
+    padding: 0;
+    text-decoration: none;
 }
 
 .sort li:after { content:"\00b7";padding-left:10px;color:#777 }
@@ -138,7 +138,8 @@ ul.sort li.last:after { content:"" }
 
 .sort li a:hover,
 .sort a.active {
-    color: #53a3b7;
+    /*color: #53a3b7;*/
+    border-bottom: 2px solid #0055a0;
     background: none;
 }
 
