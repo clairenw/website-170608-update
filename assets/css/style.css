@@ -26,6 +26,18 @@
     clear: both;
 }
 
+/*Temp display none classes here*/
+/*==================================*/
+#page .latest-tweets {
+	display: none;
+}
+
+
+
+
+
+
+/*************************************/
 .lt-ie9 .container {width: 940px} /* ie less than 9*/
 
 /* body / html font base sizes
@@ -2262,3 +2274,12 @@ h2,  h3 { page-break-after: avoid; }
 
  }/*end print*/
 
+
+
+
+
+/*2017 New styles*/
+/*===================*/
+#footer .no-heading {
+	padding-top: 48px;
+}
