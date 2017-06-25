@@ -55,7 +55,7 @@ function show_error($myError)
 ?>
 <html>
 
-<title>Creative &amp; Digital Design Freelancer and Contractor in Newbury - Art Directions Ltd - Offering UX and UI design for print, banners, web, email, video, animation, interactive, elearning, branding, logos, events, etc</title>
+<title>Art Directions - Contact</title>
 
 <!-- Meta Data ================ -->
 <meta charset="UTF-8" />
