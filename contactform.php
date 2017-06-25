@@ -138,11 +138,11 @@ with yours and get your fb:admis content information where the XXXX goes.
 </section>
 
 <!-- begin .header-->
-<header class="header  clearfix"> <img src="assets/images/print-logo.png" class="print logo" alt="Art Directions" />
+<header class="header  clearfix" role="banner"> <img src="assets/images/print-logo.png" class="print logo" alt="Art Directions" />
 	<div class="container"> 
 		<div class="mobile-menu-holder"><!--clone menu here for mobile--></div>
 		<!-- begin #main_menu -->
-		<nav id="main_menu">
+		<nav id="main_menu" role="navigation">
 			<ul class="primary_menu">
 				<li><a href="index.html">Home</a>
 				<li><a href="nonmembers/portfolio.html">Portfolio</a></li>
@@ -200,7 +200,7 @@ with yours and get your fb:admis content information where the XXXX goes.
 	</div>
 	<!--close .container role="main-content" --> 	
 	<!--begin footer -->
-	<footer class="clearfix" id="footer">
+	<footer class="clearfix" id="footer" role="contentinfo">
 	    <div class="container">
 	        <!--footer container-->
 	        <div class="row-fluid">
