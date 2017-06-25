@@ -45,7 +45,9 @@ body.tall-logo nav.user {
 	margin-top: 7px;
 	background: url(../images/logo.png) no-repeat;
 }
-
+#logo:focus {
+	background-color: #6095c3;
+}
 /* ie 7 fix*/
 .lt-ie8 #logo {
 	position: absolute!important;
