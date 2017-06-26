@@ -17,7 +17,7 @@
 }
 .project-description p a {
     text-decoration: none;
-    border-bottom: 1px dotted #a3b0bb;
+    /*border-bottom: 1px dotted #a3b0bb;*/
 }
 .portfolio-detail .btn {
     text-decoration: none;
