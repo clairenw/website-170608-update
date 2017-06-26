@@ -2228,7 +2228,7 @@ body {
 	}
 	#hide-pdf {
 		display:block;
-		margin-top:8px;
+		/*margin-top:8px;*/
 	}
 	.reco-btn {
 		margin-top:-14%;

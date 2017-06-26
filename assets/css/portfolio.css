@@ -19,9 +19,23 @@
     text-decoration: none;
     /*border-bottom: 1px dotted #a3b0bb;*/
 }
-.portfolio-detail .btn {
-    text-decoration: none;
+.portfolio-detail a.btn {
     border-bottom: 0px;
+    text-decoration: none;
+}
+
+.portfolio-detail .btn.btn-very-subtle {
+    /*text-transform: uppercase;*/
+}
+.portfolio-detail .btn.btn-grey {
+    border: 1px solid #7ab2dc;
+}
+.portfolio-detail .btn.btn-very-subtle,
+.portfolio-detail .btn.btn-grey {
+    min-width: 120px;
+    margin-top: 12px;
+    padding: 4px 12px;
+
 }
 
 /****** add this ******/
