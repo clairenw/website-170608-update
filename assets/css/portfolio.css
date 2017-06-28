@@ -92,14 +92,13 @@
     top: 0;
     right: 0;
     text-indent: -9999px;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     float: right;
-    background: #d8dfe5 url(../images/zoom-corner.png) 50% 50% no-repeat;
-	opacity:0.7;
+    background: url(../images/zoom-corner.png) 50% 50% no-repeat;
 }
 .portfolio-single #fancybox-thumbs ul li {
-    margin-right: 2px;
+    margin-right: 5px;
 }
 .portfolio-single #fancybox-thumbs ul li img {
     border-radius: 0;
