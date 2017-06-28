@@ -302,7 +302,7 @@ body.tall-logo nav.user {
 	padding: 0 12px 2px;
 	text-decoration: none;
 	font-size: 120%;
-	transition:all 200ms;
+	/*transition:all 200ms;*/
 }
 
 .primary_menu li ul li a, .lt-ie9 .primary_menu li ul li a {

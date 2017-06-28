@@ -107,7 +107,29 @@ h4 {padding-bottom:0; margin:0;}
 body, input, textarea, button { font-family: "Source Sans Pro", Sans-Serif;} /* http://css-tricks.com/sans-serif/ */
 .hero-unit h1,.hero-unit h2, .short_headline, .call-to-action h3, h1, h2, h3, h4, h5, h6 {font-family:"Raleway", Sans-Serif;font-weight:300}
 .short_headline, .call-to-action h3, h3 {font-weight:500; color:#7ab2dc ;}
-blockquote, .statement, .header .tagline { font-family: Garamond, "Apple Garamond", "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;}
+
+.statement,
+.header .tagline { 
+  	font-family: Garamond, "Apple Garamond",
+  	 "Palatino Linotype",
+  	 Palatino,
+  	 Palladio,
+  	 "URW Palladio L",
+  	 "Book Antiqua",
+  	 Baskerville,
+  	 "Bookman Old Style",
+  	 "Bitstream Charter",
+  	 "Nimbus Roman No9 L",
+  	 "ITC Garamond Narrow",
+  	 "New Century Schoolbook",
+  	 "Century Schoolbook",
+  	 "Century Schoolbook L",
+  	 Georgia, serif;
+  	}
+blockquote {
+	font-family: "Source Sans Pro", Sans-Serif;
+	font-style: italic;
+}
 
 /* Link Styles
 ================================================== */
