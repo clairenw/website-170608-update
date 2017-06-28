@@ -382,6 +382,7 @@ blockquote {
 blockquote p {
     font-size: 100%;
     line-height: 175%;
+    margin-bottom: 18px;
 }
 blockquote .quoteimage {
 	float:right;
@@ -1732,7 +1733,9 @@ body {
  	 h2 {
 		line-height:1.2!important;
 	}
-	
+	blockquote p {
+		margin-bottom: 14px;
+	}
 }
 	
 /**** end max width 768 ****/
@@ -1931,6 +1934,7 @@ body {
 	.bluebox p {
 		font-size:85%!important;
 	}
+
 
 	
 /* 		.reco-btn {
