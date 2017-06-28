@@ -1,14 +1,14 @@
-@import url('socialicoregular.css'); /*social icons */
-@import url('font-awesome.css'); /*icon font */
-@import url('hero-equal-thumb-gallery.css'); /* equal height hero columns / thumbnail gallery css */
-@import url('tabs-toggle.css'); /*accordion and tabs */
-@import url('portfolio.css'); /*portfolio */
-@import url('blog.css'); /*blog */
-@import url('gallery-folio-masonry.css'); /*isotope/masonry/grid css */
-@import url('../js/fancybox/source/jquery.fancybox.css'); /*combined buttons, thumbs and base fancybox*/
-
-@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,400italic,300italic,700,700italic');/*fonts*/
-@import url('http://fonts.googleapis.com/css?family=Raleway:300,500,600,700');/*fonts*/
+@import url('socialicoregular.css');
+@import url('font-awesome.css');
+@import url('hero-equal-thumb-gallery.css');
+@import url('tabs-toggle.css');
+@import url('portfolio.css');
+@import url('blog.css');
+@import url('gallery-folio-masonry.css');
+@import url('../js/fancybox/source/jquery.fancybox.css');
+@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,400italic,300italic,700,700italic');
+@import url('http://fonts.googleapis.com/css?family=Raleway:300,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Spectral:300,500,600,700');
 
 /*	main container(s)
 ================================================================= */
@@ -127,7 +127,7 @@ body, input, textarea, button { font-family: "Source Sans Pro", Sans-Serif;} /* 
   	 Georgia, serif;
   	}
 blockquote {
-	font-family: "Source Sans Pro", Sans-Serif;
+	font-family: 'Spectral', serif;
 	font-style: italic;
 }
 
@@ -386,7 +386,7 @@ blockquote {
     font-style: italic;
     margin-left: 0px;
     margin-right: 0px;
-    padding: 10px 43px 0 43px;
+    padding: 15px 43px 0 43px;
     position: relative;
     quotes: none;
 	background: url(../images/open-quote.png) 0 0 no-repeat, url(../images/close-quote.png) 100% 80%  no-repeat;
@@ -395,16 +395,17 @@ blockquote {
     line-height: 175%;
 }
 .blockquoteWhite {
-    background: url(../images/open-quote-white.png) 0 0 no-repeat, url(../images/close-quote-white.png) 100% 93%  no-repeat;
+    background: url(../images/open-quote-white.png) 0 0 no-repeat, url(../images/close-quote-white.png) 100% 100%  no-repeat;
 }
 .blockquoteDark {
-	background: url(../images/open-quote.png) 0 0 no-repeat, url(../images/close-quote.png) 100% 93%  no-repeat!important;
+	background: url(../images/open-quote.png) 0 0 no-repeat, url(../images/close-quote.png) 100% 100%  no-repeat!important;
 
 }
+
 blockquote p {
-    font-size: 100%;
-    line-height: 175%;
     margin-bottom: 18px;
+	font-size: 15px;
+	line-height: 150%;
 }
 blockquote .quoteimage {
 	float:right;
@@ -417,11 +418,11 @@ blockquote footer {
     clear: both;
     display: block;
     text-align: right;
-    font-size: 80%;
 	margin:0 -20px 0 0;
-	line-height:100%;
-	
-
+	line-height:150%;
+}
+blockquote footer {
+	font-size: 13px;
 }
 blockquote footer:before { content: "\2014 \0020" }
 q {
