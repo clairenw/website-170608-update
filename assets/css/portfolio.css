@@ -97,6 +97,9 @@
     float: right;
     background: url(../images/zoom-corner.png) 50% 50% no-repeat;
 }
+.portfolio-detail #slider .zoom-image:hover {
+     background: url(../images/zoom-corner-hi.png) 50% 50% no-repeat;
+}
 .portfolio-single #fancybox-thumbs ul li {
     margin-right: 5px;
 }
@@ -263,12 +266,12 @@
 } 
 
 .portfolio-detail #slider .zoom-image { 
-	background-image: url(../images/retina/zoom-corner_@2x.png);
-	     	-moz-background-size:25px 25px; /*w & h of original 72dpi image */
-             -ie-background-size:25px 25px;
-              -o-background-size:25px 25px;
-       	 -webkit-background-size:25px 25px;
-                 background-size:25px 25px;
+    background-image: url(../images/retina/zoom-corner_@2x.png);
+            -moz-background-size:45px 45px; /*w & h of original 72dpi image */
+             -ie-background-size:45px 45px;
+              -o-background-size:45px 45px;
+         -webkit-background-size:45px 45px;
+                 background-size:45px 45px;
 }
 
 .portfolio-detail #carousel li span {
