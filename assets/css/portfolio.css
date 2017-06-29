@@ -64,6 +64,7 @@
     padding: 0;
 }
 .portfolio-detail .related ul li {
+    border: 1px solid #ccc;
     float: left;
     width: 75px;
     height: 75px;
@@ -73,7 +74,6 @@
     position: relative;
 }
 .portfolio-detail .related ul li a {
-    border: 1px solid #ccc;
     overflow: hidden;
     display: block;
     width: 100%;
@@ -92,13 +92,13 @@
     top: 0;
     right: 0;
     text-indent: -9999px;
-    width: 45px;
-    height: 45px;
+    width: 100%;
+    height: 100%;
     float: right;
-    background: url(../images/zoom-corner.png) 50% 50% no-repeat;
+    background: url(../images/zoom-corner.png) 100% 0 no-repeat;
 }
 .portfolio-detail #slider .zoom-image:hover {
-     background: url(../images/zoom-corner-hi.png) 50% 50% no-repeat;
+     background: url(../images/zoom-corner-hi.png) 100% 0 no-repeat;
 }
 .portfolio-single #fancybox-thumbs ul li {
     margin-right: 5px;
