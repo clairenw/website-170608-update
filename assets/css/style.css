@@ -363,7 +363,7 @@ my-email::before {
 	margin-top:1%!important;
 }
 
-
+ 
 	
 	/* Gallery 
 =============================================== */
@@ -386,7 +386,7 @@ blockquote {
     font-style: italic;
     margin-left: 0px;
     margin-right: 0px;
-    padding: 15px 43px 0 43px;
+    padding: 25px 43px 0 43px;
     position: relative;
     quotes: none;
 	background: url(../images/open-quote.png) 0 0 no-repeat, url(../images/close-quote.png) 100% 80%  no-repeat;
