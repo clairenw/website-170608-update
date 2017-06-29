@@ -503,7 +503,7 @@ body.tall-logo nav.user {
 	.header {
 		position: relative;
 		height: auto;
-		margin-top: 50px;
+		/*margin-top: 50px;*/
 	}
 	
 	.header .container {
@@ -583,11 +583,11 @@ body.tall-logo nav.user {
 		display: block;
 		position: absolute;
 		top: 5px;
-		left: 5px;
+		right: 5px;
 		height: 40px;
 		width: 40px;
-		background: #0055a0;
-		z-index: 1;
+		/*background: #0055a0;*/
+		z-index: 1000;
 	}
 	
 	.mobile_nav a span {
