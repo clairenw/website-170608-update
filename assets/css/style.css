@@ -32,11 +32,6 @@
 	display: none;
 }
 
-
-
-
-
-
 /*************************************/
 .lt-ie9 .container {width: 940px} /* ie less than 9*/
 
@@ -152,6 +147,9 @@ embed,
     -moz-outline-style: none;
     outline: none!important; /*remove dotted border */
 }
+p a {
+	display: inline-block;
+}
 /* Don't collapse these into one ruleset. When a browser doesn't 
 recognise a selector it discards the whole ruleset. 
 By using vendor selectors in one ruleset you guarentee 
@@ -224,7 +222,9 @@ ul.circle li { list-style-type: disc }
 .infoMenu span.fa {
 	font-size: 24px;
 }
-
+p span.fa {
+	font-weight: bold;
+}
 
 
 /*=======================*/
@@ -812,6 +812,7 @@ input[type="text"], input[type="password"], input[type="search"], input[type="em
 	font-size:18px;
 	}
 	.icontext {
+		font-family: "Source Sans Pro", Sans-Serif;
 		font-size:15px;
 		margin-left:15px;
 	}
@@ -2351,4 +2352,16 @@ h2,  h3 { page-break-after: avoid; }
 /*===================*/
 #footer .no-heading {
 	padding-top: 48px;
+}
+.portfolio-single #fancybox-buttons ul {
+	border: 1px solid #fff;
+	background: #0055a0;
+}
+.portfolio-single #fancybox-buttons a {
+	opacity: .6;
+}
+.portfolio-single #fancybox-buttons a:hover,
+.portfolio-single #fancybox-buttons a:focus,
+.portfolio-single #fancybox-buttons a:active {
+	opacity: 1;
 }
