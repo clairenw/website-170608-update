@@ -79,14 +79,28 @@ h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, .slide-to-top .trigger:v
 h4 {padding-bottom:0; margin:0;}
  .btn-color  ul li a {color:#fff}
  /* .btn-color  ul li a:hover {color:#fff } */
- .btn-primary:visited, .btn-very-subtle:visited { color:#fff; background:#7ab2dc; border:0; }
- .btn-grey {
+ .btn-primary:visited, .btn-very-subtle:visited { 
+	color:#fff; 
+	/*background:#7ab2dc;*/
+	border:0; 
+}
+.btn-grey {
 	background:#aaa;
 	border:none;
- }
- .tn-border {
+}
+#page .btn-lt-blue {
+	background: #7ab2dc;
+	border: 1px solid #7ab2dc;
+}
+#page .btn-lt-blue:hover,
+#page .btn-lt-blue:active,
+#page .btn-lt-blue:focus {
+	background: #0055a0;
+	border: 1px solid #0055a0;
+}
+.tn-border {
 	border:1px solid #ccc;
- }
+}
 
 /* Font Selection
 ================================================== */
