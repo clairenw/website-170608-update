@@ -817,6 +817,7 @@ input[type="text"], input[type="password"], input[type="search"], input[type="em
 	}
 	.infoMenu a {
 		color:#0055a0;
+		display: inline-block;
 		text-decoration:none;
 	}
 	.infoMenu a:hover {
